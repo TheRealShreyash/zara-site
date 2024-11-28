@@ -1,0 +1,108 @@
+@font-face {
+  font-family: myFont;
+  src: url("fonts/HelveticaNueMedExt.otf");
+}
+
+* {
+  margin: 0;
+  font-family: myFont;
+  background-color: #2f2f2f;
+  border: border-box;
+  color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+}
+
+.navul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  display: flex;
+  padding-top: 10px;
+  margin-left: 0; /* Removes margin on the left */
+  padding-top: 10px;
+  margin-right: auto;
+  flex-grow: 1;
+  justify-content: flex-start;
+  transition: 0.5s;
+  user-select: none;
+}
+
+.navul li {
+  margin-right: 26px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.navul li:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 3px #fcae87;
+  /* font-weight: 900; */
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  left: 46%; /* Centers the logo */
+  transform: translateX(-50%);
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.logotext {
+  font-size: 40px;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  user-select: none;
+  cursor: pointer;
+  position: absolute;
+  /* padding-top: 8px; */
+  transition: 0.5s;
+}
+
+.gloweffect {
+  text-shadow: 0 0 5px #ffffff, 0 0 12px #ffffff, 0 0 20px #ffffff,
+    0 0 35px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  text-align: center;
+}
+
+.logotext:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 3px #fcae87;
+}
+
+.pvpolicy {
+  align-items: center;
+  display: flex;
+  padding-top: 12px;
+  margin-left: 2in;
+  position: relative;
+}
+
+.policybutton {
+  background-color: #fcae87;
+  /* font-weight: bold; */
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+
+.policybutton:hover {
+  color: #fcae87;
+  background-color: #2f2f2f;
+  border: 2px solid #faa276;
+}
