@@ -106,3 +106,35 @@ a {
   background-color: #2f2f2f;
   border: 2px solid #faa276;
 }
+
+.zaralg {
+  display: flex;
+  align-items: center;
+  margin-left: 42.9%;
+  margin-top: 10%;
+}
+
+.zaralgimg {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 0 1px 20px black;
+  animation: bounce 10s infinite;
+  transition: 0.5s;
+}
+
+.zaralgimg:hover {
+  transform: scale(1.1); /* Optional: slightly grow the element on hover */
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
