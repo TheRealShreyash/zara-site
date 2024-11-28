@@ -9,6 +9,7 @@
   background-color: #2f2f2f;
   border: border-box;
   color: rgb(255, 255, 255);
+  user-select: none;
 }
 
 a {
@@ -36,7 +37,6 @@ a {
   flex-grow: 1;
   justify-content: flex-start;
   transition: 0.5s;
-  user-select: none;
 }
 
 .navul li {
@@ -65,7 +65,7 @@ a {
   color: white;
   font-weight: bolder;
   text-decoration: none;
-  user-select: none;
+
   cursor: pointer;
   position: absolute;
   /* padding-top: 8px; */
@@ -125,6 +125,91 @@ a {
 
 .zaralgimg:hover {
   transform: scale(1.1); /* Optional: slightly grow the element on hover */
+}
+
+.buttons {
+  margin-top: 20px;
+  margin-right: 0.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.invitebutton {
+  background-color: #3b82f6;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin-right: 10px;
+}
+
+.discordsvg {
+  height: 20px;
+  width: 20px;
+  padding-right: 8px;
+  background-color: #3b82f6;
+  transition: 0.5s;
+}
+
+.invitebutton:hover .discordsvg {
+  background-color: #2f2f2f; /* Change the background color of the SVG on hover */
+}
+
+.discordsvg:hover {
+  background-color: #2f2f2f; /* Keep the SVG background color the same on hover */
+}
+
+.invitebutton:hover {
+  background-color: #2f2f2f;
+  border: 2px solid #2563eb;
+  color: #2563eb;
+}
+
+.supportbutton {
+  background-color: #16a34a;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.supportbutton:hover {
+  background-color: #2f2f2f;
+  border: 2px solid #16a34a;
+  color: #16a34a;
+}
+
+.description {
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 23%;
+}
+
+.footer {
+  margin-bottom: 0;
+  margin-top: 8.1%;
+  margin-left: 41%;
+}
+
+.footer p {
+  color: #fcae87;
 }
 
 @keyframes bounce {
