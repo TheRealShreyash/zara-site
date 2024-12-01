@@ -10,6 +10,7 @@
   border: border-box;
   color: rgb(255, 255, 255);
   user-select: none;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -18,11 +19,15 @@ a {
 
 .navbar {
   display: flex;
-  /* justify-content: center; */
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 60px;
 }
 
 .navul {
@@ -93,7 +98,7 @@ a {
 
 .policybutton {
   background-color: #fcae87;
-  /* font-weight: bold; */
+  margin-right: 60px;
   cursor: pointer;
   border-radius: 8px;
   font-size: 20px;
@@ -111,7 +116,7 @@ a {
   display: flex;
   align-items: center;
   margin-left: 42.9%;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .zaralgimg {
@@ -119,7 +124,7 @@ a {
   width: 200px;
   border-radius: 20px;
   box-shadow: 0 1px 20px black;
-  animation: bounce 10s infinite;
+  animation: bounce 8s infinite;
   transition: 0.5s;
 }
 
@@ -194,22 +199,6 @@ a {
   background-color: #2f2f2f;
   border: 2px solid #16a34a;
   color: #16a34a;
-}
-
-.description {
-  width: 60%;
-  margin-top: 20px;
-  margin-left: 23%;
-}
-
-.footer {
-  margin-bottom: 0;
-  margin-top: 8.1%;
-  margin-left: 41%;
-}
-
-.footer p {
-  color: #fcae87;
 }
 
 @keyframes bounce {
