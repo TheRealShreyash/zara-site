@@ -7,15 +7,15 @@ const inviteButton = document.querySelector(".invitebutton");
 const supportButton = document.querySelector(".supportbutton");
 
 commandButton.addEventListener("click", function () {
-  window.location.href = "/commands.html";
+  window.location.href = "/zara-site/commands.html";
 });
 
 policyButton.addEventListener("click", function () {
-  window.location.href = "/policy.html";
+  window.location.href = "/zara-site/policy.html";
 });
 
 homeButton.addEventListener("click", function () {
-  window.location.href = "/index.html";
+  window.location.href = "/zara-site/index.html";
 });
 
 inviteButton.addEventListener("click", function () {
