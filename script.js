@@ -11,7 +11,7 @@ commandButton.addEventListener("click", function () {
 });
 
 policyButton.addEventListener("click", function () {
-  window.location.href = "/privacypolicy.html";
+  window.location.href = "/policy.html";
 });
 
 homeButton.addEventListener("click", function () {

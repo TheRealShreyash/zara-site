@@ -1,0 +1,197 @@
+@font-face {
+  font-family: titleFont;
+  src: url("fonts/HelveticaNueMedExt.otf");
+}
+@font-face {
+  font-family: bodyFont;
+  src: url("fonts/Goia-Regular.otf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  font-family: bodyFont;
+  font-size: large;
+  font: bold;
+  background-color: #2f2f2f;
+  border: border-box;
+  color: rgb(255, 255, 255);
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  font-family: titleFont;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 70px;
+}
+
+.navul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  display: flex;
+  padding-top: 10px;
+  margin-left: 0; /* Removes margin on the left */
+  padding-top: 10px;
+  margin-right: auto;
+  flex-grow: 1;
+  justify-content: flex-start;
+  transition: 0.5s;
+}
+
+.navul li {
+  margin-right: 26px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.navul li:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 3px #fcae87;
+  /* font-weight: 900; */
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  left: 45%;
+  transform: translateX(-50%);
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.logotext {
+  font-family: titleFont;
+  font-size: 40px;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+
+  cursor: pointer;
+  position: absolute;
+  /* padding-top: 8px; */
+  transition: 0.5s;
+}
+
+.gloweffect {
+  text-shadow: 0 0 5px #ffffff, 0 0 12px #ffffff, 0 0 20px #ffffff,
+    0 0 35px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  text-align: center;
+}
+
+.logotext:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 3px #fcae87;
+}
+
+.inv {
+  align-items: center;
+  display: flex;
+  padding-top: 12px;
+  margin-left: 2in;
+  position: relative;
+}
+
+.invitebutton {
+  font-family: titleFont;
+  background-color: #fcae87;
+  margin-right: 60px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+
+.invitebutton:hover {
+  color: #fcae87;
+  background-color: #2f2f2f;
+  border: 2px solid #faa276;
+}
+
+/* Main Policy Style */
+
+.link {
+  color: rgb(92, 92, 248);
+}
+
+.link.link:onclick {
+  color: rgb(92, 92, 248);
+}
+
+.title {
+  font-family: titleFont;
+  margin-top: 1.5in;
+  /* margin-left: 36%; */
+  text-align: center;
+  color: rgba(248, 165, 31, 0.936);
+  font-size: 45px;
+}
+
+h2 {
+  font-family: titleFont;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  color: rgba(248, 165, 31, 0.936);
+  font-size: 20px;
+}
+
+.intropara {
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.para1int,
+.pspara1,
+.infopara1,
+.infopara2 {
+  padding-bottom: 28px;
+}
+
+.pstatementcontent,
+.infostatementcontent,
+.tpwebcontent,
+.dinfocontent,
+.tppcontent {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 15px;
+}
+
+.pspara2 {
+  padding-top: 20px;
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+code {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  color: rgb(249, 94, 120);
+}
+
+span {
+  color: #ed3131;
+}
