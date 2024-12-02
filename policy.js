@@ -3,7 +3,7 @@ const homeButton = document.querySelector("#homebutton");
 const inviteButton = document.querySelector(".invitebutton");
 
 homeButton.addEventListener("click", function () {
-  window.location.href = "/zara-site/index.html";
+  window.location.href = "https://therealshreyash.github.io/zara-site/index.html";
 });
 
 inviteButton.addEventListener("click", function () {
@@ -11,5 +11,5 @@ inviteButton.addEventListener("click", function () {
 });
 
 commandButton.addEventListener("click", function () {
-  window.location.href = "/zara-site/commands.html";
+  window.location.href = "https://therealshreyash.github.io/zara-site/commands.html";
 });
